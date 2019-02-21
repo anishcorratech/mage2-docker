@@ -30,3 +30,17 @@ MYSQL_PASSWORD=mage23pass
 
  - Create a new directory `htdocs`
  - Copy the Magento 2.x source code into the `htdocs` directory.
+
+#### Tree
+
+```
+.
+├── configs
+│   ├── nginx
+│   │   └── default.conf
+│   └── php
+│       └── www.conf
+├── docker-compose.yml
+├── htdocs
+└── Readme.md
+```
